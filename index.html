@@ -2,17 +2,22 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pompiere">
+    <script async src="http://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-sidebar" src="http://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pompiere">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
-    <meta name="author" content="КазаньТорт" />
+    <meta name="author" content="" />
     <meta name="generator" content="Pelican (VoidyBootstrap theme)" />
     
-     <title>Десерты</title>
+     <title>+7(905)024-66-15  Торты на заказ в Казани  - КазаньТорт</title>
          <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
      <style>
         .header-item {
@@ -88,8 +93,17 @@
         body {
             position: relative;
         }
+        .button-hamburger {
+            font-size: 22px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .breadcrumb {
+            font-size: 14px;
+        }
         body > header {
-            height: 60px;
+            height: 70px;
             border-bottom: 10px solid transparent;
             background-image:
                     linear-gradient(lightblue, skyblue),
@@ -109,6 +123,29 @@
             width: 100%;
             z-index: 100
         }
+        #footer {
+            height: 70px;
+            border-top: 10px solid transparent;
+            background-image:
+                    linear-gradient(lightblue, skyblue),
+                    linear-gradient(to bottom right, transparent 50.5%, lightblue 50.5%),
+                    linear-gradient(to bottom left, transparent 50.5%, lightblue 50.5%),
+                    linear-gradient(to top right, transparent 50.5%, skyblue 50.5%),
+                    linear-gradient(to top left, transparent 50.5%, skyblue 50.5%);
+            background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+            background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+            background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+            background-clip: padding-box, border-box, border-box, border-box, border-box;
+            background-origin: padding-box, border-box, border-box, border-box, border-box;
+            background-color: lightblue;
+            background-color: hsla(0, 0%, 0%, 0);
+            width: 100%;
+            z-index: 100
+        }
+        .footer-copyright {
+            color: black;
+            text-align: center;
+        }
 
 body {font-family: Pompiere;color: #333;background: rgba(0, 0, 0, 0) ;font-size: 22px;line-height: 1.6em;font-weight: 400;letter-spacing: 1px;}
 html, body {width:100%; padding:0; margin:0;}
@@ -122,12 +159,12 @@ html { -webkit-text-size-adjust: none;}
 .video embed,.video object,.video iframe { width: 100%;  height: auto;}
 img{max-width:100%; height: auto;width: auto\9; /* ie8 */}
 
-h1 {font-size: 38px;}
-h2 {font-size: 36px;}
-h3 {font-size: 32px;}
-h4 {font-size: 28px;}
-h5 {font-size: 24px;}
-h6 {font-size: 20px;}
+h1 {font-size: 32px;}
+h2 {font-size: 28px;}
+h3 {font-size: 24px;}
+h4 {font-size: 20px;}
+h5 {font-size: 18px;}
+h6 {font-size: 16px;}
 
 h1,h2,h3,h4,h5,h6 {font-weight: 600;color: #111;}
 
@@ -206,6 +243,11 @@ h1::before, .hr::before {
 @media(max-width:767px){
     .hr::before,.hr::after{display: none;}
 }
+button.carousel-preview-button {
+    width: 60px;
+    height: 40px;
+}
+
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------Navbar------------------------------------ */
 /* ---------------------------------------------------------------------------- */
@@ -578,7 +620,7 @@ border: 1px solid rgba(255, 255, 255, 0.7);bottom: 1em;content: '';left: 1em;opa
 </head>
 <body amp>
     <header>
-        <button class="fa fa-bars header-item" on='tap:sidebar1.toggle'></button>
+        <button class="fa fa-bars header-item button-hamburger" on='tap:sidebar1.toggle'></button>
         <span class="header-item">КазаньТорт</span>
         <span class="phone header-item"><a href="tel:79050246615">8(905)024-66-15</a></span>
     </header>
@@ -592,8 +634,7 @@ border: 1px solid rgba(255, 255, 255, 0.7);bottom: 1em;content: '';left: 1em;opa
     </amp-sidebar>
     <div id="content">
     <h1>Торты на заказ в Казани</h1>
-    <h2>Наши преимущества</h2>
-<p>Торты на заказ от Казань Торт - это не только качественное оформление, но и безупречный нежный вкус. Казань ждёт недорогие, но вкусные торты на заказ. Что же нас отличает от остальных кондитерских?</p>
+    <p>Торты на заказ от Казань Торт - это не только качественное оформление, но и безупречный нежный вкус. Казань ждёт недорогие, но вкусные торты на заказ. Что же нас отличает от остальных кондитерских?</p>
 <ul>
 <li>Только лучшие из тысяч рецептов</li>
 <li>только самые свежие ингредиенты</li>
@@ -601,11 +642,16 @@ border: 1px solid rgba(255, 255, 255, 0.7);bottom: 1em;content: '';left: 1em;opa
 <li>только халяль</li>
 <li>мы не экономим на качестве</li>
 </ul>
-<h3>Цены</h3>
-<p>Стоимость этого великолепного десерта - вот что часто является тем самым моментом, который может испортить Вам настроение. Чуть более красивое оформление - и торт станет для Вас в копеечку. Мы же предлагаем сладкие вкусности по цене от 400р. за килограмм. И за эту цену - не простой медовик, а изысканное произведение, вкус которого понравится Вам</p>
-<h3>Фото</h3>
-<p>Пожалуй, одним из важнейших характеристик десертов является их внешний вид. Пока ещё не изобрели устройство, способное передавать запах и вкус на расстоянии, поэтому о качествах торта мы можем судить только по фотографии. Вы любите красивые и вкусные торты. Поэтому , учитывая ваши предпочтения, мы подготовили для вас каталог. В нём вы найдёте изысканные лакомства, вкуснее которых вы, возможно, и не пробовали, а их изображения расскажут Вам о многом</p>
-<h2>Избранное</h2>
+<h2>Цены</h2>
+<p>Стоимость этого великолепного десерта - вот что часто является тем самым моментом, который может испортить Вам настроение. Чуть более красивое оформление - и торт станет для Вас в копеечку. Мы же предлагаем сладкие вкусности по цене от <strong>400р. за килограмм</strong>. И за эту цену - не простой медовик, а изысканное произведение, вкус которого понравится Вам</p>
+<h2>Фото</h2>
+<p>Пожалуй, одним из важнейших характеристик десертов является их внешний вид. Пока ещё не изобрели устройство, способное передавать запах и вкус на расстоянии, поэтому о качествах торта мы можем судить только по фотографии. Вы любите красивые и вкусные торты. Поэтому , учитывая ваши предпочтения, мы подготовили для вас <a href="/catalog">каталог</a>. В нём вы найдёте изысканные лакомства, вкуснее которых вы, возможно, и не пробовали, а их изображения расскажут Вам о многом</p>
+<div class="carousel-preview"><button class="carousel-preview-button" on="tap:carousel-with-preview.goToSlide(index=0)"> <amp-img src="/images/menu/menu-1.jpg" width="60" height="40" layout="responsive" alt="a sample image"></amp-img></button><button class="carousel-preview-button" on="tap:carousel-with-preview.goToSlide(index=1)"> <amp-img src="/images/menu/menu-2.jpg" width="60" height="40" layout="responsive" alt="a sample image"></amp-img> </button> <button class="carousel-preview-button" on="tap:carousel-with-preview.goToSlide(index=2)"> <amp-img src="/images/menu/menu-3.jpg"         width="60"        height="40"        layout="responsive"        alt="a sample image"></amp-img>    </button>     <button class="carousel-preview-button" on="tap:carousel-with-preview.goToSlide(index=3)">      <amp-img src="/images/menu/menu-4.jpg" width="60"         height="40"         layout="responsive"        alt="a sample image"></amp-img>    </button>  </div>
+
+<p><amp-carousel id="carousel-with-preview"     width="700"    height="200"    layout="responsive"    type="slides">    <amp-img src="/images/menu/menu-1.jpg"      width="200"       height="200"      layout="responsive"      alt="Чизкейки"></amp-img>    <amp-img src="/images/menu/menu-2.jpg"      width="200"      height="200"      layout="responsive"      alt="Капкейки"></amp-img>    <amp-img src="/images/menu/menu-3.jpg"      width="200"      height="200"      layout="responsive"      alt="Пончики"></amp-img>    <amp-img src="/images/menu/menu-4.jpg"      width="200"      height="200"      layout="responsive"      alt="Десерты"></amp-img>  </amp-carousel></p>
+    </div>
+    <div id="footer">
+        <div class="footer-copyright">Copyright 2015-2017 @ КазаньТорт<br> kazantort.ru</div>
     </div>
 </body>
 </html>

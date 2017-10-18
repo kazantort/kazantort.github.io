@@ -17,7 +17,7 @@
     <meta name="author" content="" />
     <meta name="generator" content="Pelican (VoidyBootstrap theme)" />
     
-     <title>О нас - КазаньТорт</title>
+     <title>+7(905)024-66-15  Каталог  - КазаньТорт</title>
          <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
      <style>
         .header-item {
@@ -617,6 +617,62 @@ border: 1px solid rgba(255, 255, 255, 0.7);bottom: 1em;content: '';left: 1em;opa
     pointer-events: none;
 }
      </style>
+  <style>
+    product.product-list {
+      
+    }
+    product > h2 {
+      font-size: 18px;
+      margin: 0;
+      /* margin-left: 0; */
+    }
+    product {
+      width: 29%;
+      float: left;
+      height: 250px;
+      overflow-y: auto;
+      position: relative;
+      font-size: 16px;
+      border: 1px dashed;
+      margin: 10px;
+      border-radius: 15px;
+      padding: 15px;
+      /*display: block;*/
+    }
+    .anons {
+      line-height: 22px;
+    }
+    .price {
+      background-color: green;
+      padding: 10px;
+      color: white;
+      border-radius: 5px;
+      display: inline;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+    
+    @media (max-width: 1100px){
+      product {
+        width: 90%;
+      }
+    }
+    .anons, .tort-photo  {
+      float: left;
+    }
+    .tort-photo {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+    }
+    #footer {
+      position: fixed;
+      bottom: 0;
+    }
+  </style>
+
+
 </head>
 <body amp>
     <header>
@@ -633,13 +689,62 @@ border: 1px solid rgba(255, 255, 255, 0.7);bottom: 1em;content: '';left: 1em;opa
       </ul>
     </amp-sidebar>
     <div id="content">
-    <h1>О нас</h1>
+    <div class="breadcrumb"><a href="/">Торты на заказ</a> / Каталог </div>
+    <p>Наша кондитерская готова предложить Вам множество видов тортов и десертов.</p>
     
 
-    <p>Добрый день! Меня зовут Лилия и я очень люблю готовить вкусные вещи. Например, торты. Иногда могу провести целый день за плитой и не заметить. Как-то мы с мужем решили, что мне стоит попробовать себя в качестве профессионального кондитера. С тех пор я выпекаю торты, пирожные, пироги на заказ. Мне приготовление еды, вкусной и полезной еды доставляет эстетическое удовольствие, поэтому цены мы не задираем, стараемся делать минимальную накрутку.</p>
-<p>Мы готовим всю еду дома. У нас чисто и уютно. Удостовериться в этом Вы можете, посмотрев фотографии нашего дома. Мы делаем торты и пирожные с душой, нам важно, чтобы каждый грамм сладости доставлял удовольствие.</p>
-<p>Мы находимся по адресу: г. Казань, ул. Заря, 16 </p>
+        <product class="product-list">
+            <h2><a href="../catalog/tort-banana">Торт Banana</a></h2>
+            <div class="anons">
+                Недорогой торт из печенья с банановым кремом удивит Вас деликатным вкусом
+            </div>
+            <div class="tort-photo">
+              <amp-img
+                width="150px"
+                height="100px"
+                src="/images/torty/tort-banana2.x100.jpg"
+              >
+            </div>
+            <div class="price">
+              300р.
+            </div><br>
+        </product>
+        <product class="product-list">
+            <h2><a href="../catalog/chizkeik-niu-iork">Чизкейк Нью-Йорк</a></h2>
+            <div class="anons">
+                Сырный пирог с восхитительным сыром филадельфия - попробуйте его и он Вам обязательно понравится
+            </div>
+            <div class="tort-photo">
+              <amp-img
+                width="150px"
+                height="100px"
+                src="/images/cheesecake/new-york2.x100.jpg"
+              >
+            </div>
+            <div class="price">
+              400р.
+            </div><br>
+        </product>
+        <product class="product-list">
+            <h2><a href="../catalog/tiramisu-with-mascarpone">Тирамису</a></h2>
+            <div class="anons">
+                Один из самых вкусных итальянских десертов с сыром Маскарпоне
+            </div>
+            <div class="tort-photo">
+              <amp-img
+                width="150px"
+                height="100px"
+                src="/images/tiramisu/tiramisu-na-zakaz.x100.jpg"
+              >
+            </div>
+            <div class="price">
+              800р.
+            </div><br>
+        </product>
 
+        <nav class="index-pager">
+
+        </nav> <!-- /index-pager -->
     </div>
     <div id="footer">
         <div class="footer-copyright">Copyright 2015-2017 @ КазаньТорт<br> kazantort.ru</div>
