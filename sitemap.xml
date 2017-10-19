@@ -4,112 +4,112 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://kazantort.ru/</loc>
-<lastmod>2017-10-19T07:44:31-00:00</lastmod>
+<loc>http://kazantort.ru/</loc>
+<lastmod>2017-10-19T08:04:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru/archives.html</loc>
-<lastmod>2017-10-19T07:44:31-00:00</lastmod>
+<loc>http://kazantort.ru/archives.html</loc>
+<lastmod>2017-10-19T08:04:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru/tags.html</loc>
-<lastmod>2017-10-19T07:44:31-00:00</lastmod>
+<loc>http://kazantort.ru/tags.html</loc>
+<lastmod>2017-10-19T08:04:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru/categories.html</loc>
-<lastmod>2017-10-19T07:44:31-00:00</lastmod>
+<loc>http://kazantort.ru/categories.html</loc>
+<lastmod>2017-10-19T08:04:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru/about-us</loc>
-<lastmod>2017-10-19T07:44:31-00:00</lastmod>
+<loc>http://kazantort.ru/about-us</loc>
+<lastmod>2017-10-19T08:04:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru/blog</loc>
-<lastmod>2017-10-19T07:44:31-00:00</lastmod>
+<loc>http://kazantort.ru/blog</loc>
+<lastmod>2017-10-19T08:04:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru/catalog/</loc>
-<lastmod>2017-10-19T07:44:31-00:00</lastmod>
+<loc>http://kazantort.ru/catalog</loc>
+<lastmod>2017-10-19T08:04:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru/</loc>
-<lastmod>2017-10-19T07:44:31-00:00</lastmod>
+<loc>http://kazantort.ru/</loc>
+<lastmod>2017-10-19T08:04:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru//catalog/tort-banana</loc>
+<loc>http://kazantort.ru/catalog/tort-banana</loc>
 <lastmod>2017-10-18T21:21:00+03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru//catalog/chizkeik-niu-iork</loc>
+<loc>http://kazantort.ru/catalog/chizkeik-niu-iork</loc>
 <lastmod>2017-10-17T21:12:00+03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru//catalog/tiramisu-with-mascarpone</loc>
+<loc>http://kazantort.ru/catalog/tiramisu-with-mascarpone</loc>
 <lastmod>2017-10-11T17:05:00+03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru//blog/tiramisu-ingredients</loc>
+<loc>http://kazantort.ru/blog/tiramisu-ingredients</loc>
 <lastmod>2017-10-11T12:04:00+03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru//blog/tiramisu-recipe</loc>
+<loc>http://kazantort.ru/blog/tiramisu-recipe</loc>
 <lastmod>2017-10-11T12:04:00+03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru/category/blog.html</loc>
+<loc>http://kazantort.ru/category/blog.html</loc>
 <lastmod>2017-10-11T12:04:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru/category/catalog.html</loc>
+<loc>http://kazantort.ru/category/catalog.html</loc>
 <lastmod>2017-10-18T21:21:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.ru/author/.html</loc>
+<loc>http://kazantort.ru/author/.html</loc>
 <lastmod>2017-10-18T21:21:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
