@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-<link rel="canonical" href="http://kazantort.ru/catalog/">
+<link rel="canonical" href="http://kazantort.rucatalog/">
     <meta name="generator" content="Pelican (KazanTort theme)" />
     <meta name="yandex-verification" content="12de2c32c2824ef5" />
     <meta name="google-site-verification" content="uaKrazBPqoPubwFGAtXxPOhspsNcs1c-wIX54o2mAzg" />  
@@ -557,15 +557,12 @@ pointer-events: none;
 } 
     </style>
   <style>
-    product.product-list {
-      
-    }
-    product > h2 {
+    .product-list > h2 {
       font-size: 18px;
       margin: 0;
       /* margin-left: 0; */
     }
-    product {
+    .product-list {
       width: 29%;
       float: left;
       height: 250px;
@@ -596,11 +593,11 @@ pointer-events: none;
     }
     
     @media (max-width: 1100px){
-      product {
+      .product-list {
         width: 90%;
       }
     }
-    .anons, .tort-photo, .product-h2  {
+    .anons, .tort-photo, .product-list-h2  {
       float: left;
     }
     .tort-photo {
@@ -638,7 +635,7 @@ pointer-events: none;
     <p>Наша кондитерская готова предложить Вам множество видов тортов и десертов.</p>
     
 
-        <product class="product-list ">
+        <div class="product-list ">
             <h2 class="product-h2"><a href="/catalog/tort-banana">Торт Banana</a></h2>
             <div class="anons">
                 Недорогой торт из печенья с банановым кремом удивит Вас деликатным вкусом
@@ -653,9 +650,9 @@ pointer-events: none;
             <div class="price">
               300р.
             </div><br>
-        </product>
+        </div>
         
-        <product class="product-list ">
+        <div class="product-list ">
             <h2 class="product-h2"><a href="/catalog/chizkeik-niu-iork">Чизкейк Нью-Йорк</a></h2>
             <div class="anons">
                 Сырный пирог с восхитительным сыром филадельфия - попробуйте его и он Вам обязательно понравится
@@ -670,9 +667,9 @@ pointer-events: none;
             <div class="price">
               400р.
             </div><br>
-        </product>
+        </div>
         
-        <product class="product-list product-last">
+        <div class="product-list product-last">
             <h2 class="product-h2"><a href="/catalog/tiramisu-with-mascarpone">Тирамису</a></h2>
             <div class="anons">
                 Один из самых вкусных итальянских десертов с сыром Маскарпоне
@@ -687,10 +684,10 @@ pointer-events: none;
             <div class="price">
               800р.
             </div><br>
-        </product>
+        </div>
         
 
-        <nav class="index-pager product-last">
+        <nav class="index-pager .product-list-last">
 
         </nav> <!-- /index-pager -->
     </div>
