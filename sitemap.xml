@@ -4,112 +4,112 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://kazantort.github.io/</loc>
-<lastmod>2017-10-19T07:40:52-00:00</lastmod>
+<loc>https://kazantort.ru/</loc>
+<lastmod>2017-10-19T07:44:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io/archives.html</loc>
-<lastmod>2017-10-19T07:40:52-00:00</lastmod>
+<loc>https://kazantort.ru/archives.html</loc>
+<lastmod>2017-10-19T07:44:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io/tags.html</loc>
-<lastmod>2017-10-19T07:40:52-00:00</lastmod>
+<loc>https://kazantort.ru/tags.html</loc>
+<lastmod>2017-10-19T07:44:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io/categories.html</loc>
-<lastmod>2017-10-19T07:40:52-00:00</lastmod>
+<loc>https://kazantort.ru/categories.html</loc>
+<lastmod>2017-10-19T07:44:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io/about-us</loc>
-<lastmod>2017-10-19T07:40:52-00:00</lastmod>
+<loc>https://kazantort.ru/about-us</loc>
+<lastmod>2017-10-19T07:44:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io/blog</loc>
-<lastmod>2017-10-19T07:40:52-00:00</lastmod>
+<loc>https://kazantort.ru/blog</loc>
+<lastmod>2017-10-19T07:44:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io/catalog/</loc>
-<lastmod>2017-10-19T07:40:52-00:00</lastmod>
+<loc>https://kazantort.ru/catalog/</loc>
+<lastmod>2017-10-19T07:44:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io/</loc>
-<lastmod>2017-10-19T07:40:52-00:00</lastmod>
+<loc>https://kazantort.ru/</loc>
+<lastmod>2017-10-19T07:44:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.4</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io//catalog/tort-banana</loc>
+<loc>https://kazantort.ru//catalog/tort-banana</loc>
 <lastmod>2017-10-18T21:21:00+03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io//catalog/chizkeik-niu-iork</loc>
+<loc>https://kazantort.ru//catalog/chizkeik-niu-iork</loc>
 <lastmod>2017-10-17T21:12:00+03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io//catalog/tiramisu-with-mascarpone</loc>
+<loc>https://kazantort.ru//catalog/tiramisu-with-mascarpone</loc>
 <lastmod>2017-10-11T17:05:00+03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io//blog/tiramisu-ingredients</loc>
+<loc>https://kazantort.ru//blog/tiramisu-ingredients</loc>
 <lastmod>2017-10-11T12:04:00+03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io//blog/tiramisu-recipe</loc>
+<loc>https://kazantort.ru//blog/tiramisu-recipe</loc>
 <lastmod>2017-10-11T12:04:00+03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io/category/blog.html</loc>
+<loc>https://kazantort.ru/category/blog.html</loc>
 <lastmod>2017-10-11T12:04:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io/category/catalog.html</loc>
+<loc>https://kazantort.ru/category/catalog.html</loc>
 <lastmod>2017-10-18T21:21:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kazantort.github.io/author/.html</loc>
+<loc>https://kazantort.ru/author/.html</loc>
 <lastmod>2017-10-18T21:21:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
